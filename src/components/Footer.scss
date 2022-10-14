@@ -18,13 +18,16 @@
 
     .footer-content {
         margin: 0 30px;
-
         .footer-logo {
             // make element inline
             display: inline-block;
             padding-right: 15px;
             font-weight: 700;
             font-size: 48px;
+
+            @media (max-width:863px) {
+                font-size: 40px;
+            }
         }
 
         .footer-c {
@@ -36,17 +39,29 @@
         .footer-heading {
             font-weight: 700;
             font-size: 64px;
+
+            @media (max-width:863px) {
+                font-size: 55px;
+            }
         }
 
         .footer-subheading {
             font-weight: 400;
             font-size: 47.5px;
             margin-top: -12px;
+
+            @media (max-width:863px) {
+                font-size: 42px;
+            }
         }
 
         .footer-icon {
             padding-left: 2em;
-            // padding-right: 2em;
+
+            @media (max-width:1308px) {
+                padding-right: 2em;
+                padding-left: 0;
+            }
 
         }
 
@@ -55,15 +70,42 @@
             font-size: 22px;
             line-height: 26px;
             margin-top: 15px;
+            text-align: center;
+
+            @media (max-width:1308px) {
+                display: none;
+            }
         }
 
         .foot-icon-list {
             margin-top: 15px;
+            margin-left: 20px;
+        }
+
+        .ra-icon {
+            margin-bottom: 20px;
         }
     }
+}
 
-    // .timepass-img {
-    //     height: 100px;
-    //     width: 100px;
-    // }  
+.icons__wrapper {
+    margin-top: 40px;
+}
+
+.icons__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+
+    &-icons {
+        margin-top: 10px;
+    }
+
+}
+
+.justify-right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
