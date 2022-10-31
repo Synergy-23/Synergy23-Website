@@ -1,15 +1,16 @@
 .faq-heading {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
-    font-size: 92px;
+    font-weight: 800;
+    font-size: 13vh;
     line-height: 138px;
+    margin-left: 1.5vw;
 }
 
 .accordion {
     // max-width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    border-radius: 4vmin;
     overflow: hidden;
     font-family: "Quicksand", sans-serif;
     background: #101010;
@@ -30,7 +31,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 33px;
+    font-size: 4.5vmin;
     line-height: 45px;
 }
 

@@ -9,6 +9,7 @@ function Events(){
          <Title_Jumbotron bigHeader={"Discover"} bigHeaderCaps={"Synergy"} subtitle= {events_page_subtitle}/>
          <EventCard title = "Event Name"/>
          <EventCard title = "Another event"/>
+    <div className='emptybox'></div>
     </div>
     );  
 }

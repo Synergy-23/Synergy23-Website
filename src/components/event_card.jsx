@@ -8,7 +8,7 @@ function EventCard(props) {
         <div className="col-5 d-none d-md-block imagecol">
         <div className="row">
             <div className="col-10 offset-2">
-            <img src={rect} alt="" className="sideimg"/>
+            <img src={rect} alt="" className="sideimg sideimgmd"/>
             </div>
           </div>
         </div>
@@ -30,13 +30,10 @@ function EventCard(props) {
             </div>
 
           </div>
-          <div className="row">
-            <div className="col"></div>
-            <div className="col buttoncol">
-            <p><a href="#" className="btn btn-purple">
+          <div className="row btn-row">
+            <p><button className="btn btn-purple">
               Register
-            </a></p>
-            </div>
+            </button></p>
           </div>
         </div>
       </div>
