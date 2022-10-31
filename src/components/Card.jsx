@@ -1,5 +1,5 @@
 import "./Card.scss";
-import rect from "../assets/rect55.png";
+
 
 const Card = (props) => {
     return (
