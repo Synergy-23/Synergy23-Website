@@ -1,11 +1,13 @@
 .EventCard{
     padding: 5vmin;
     margin-top: 4vmin;
-    background-color: black;
+    background-color: #1d1c1c;
+    border-radius: 10vmin;
 }
 
 .accordion{
-    background-color: black !important;
+    background-color: #1d1c1c !important;
+    box-shadow: none !important;
 }
 .title_row{
     font-size: 6vmin;
@@ -24,13 +26,20 @@
     background-color:#BE00D7!important;
     color: white  !important;
     border: none  !important;
-    width: 90% !important;
+    width: 40% !important;
     height: 8vmin;
     margin-top: 5vmin;
     font-size: 3.3vmin !important;
     font-weight: 600 !important;
-
+    border-radius: 4vmin !important;
+    margin-right: 7vmin;
 }
+
+.btn-row{
+    display: flex;
+    justify-content: right;
+}
+
 .imagecol{
     display: flex;
     justify-content: center;
@@ -39,3 +48,10 @@
 .sideimg{
     width: 100%;
 }
+
+.sideimgmd{
+    margin-left: -4vw;
+}
+
+
+

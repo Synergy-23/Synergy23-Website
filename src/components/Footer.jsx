@@ -5,6 +5,8 @@ import { BsFacebook, BsLinkedin } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { isMobile } from "react-device-detect";
 import iiitbLogo from "../assets/iiitb-logo.png";
+import synergylogo from "../assets/synergy-footer.svg";
+
 const Footer = () => {
     return (
         <div className="footer">
@@ -14,25 +16,26 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-sm d-none d-sm-block">
                                 <span>
-                                    <h1 className="footer-logo">Logo</h1>
+                                    <img src={synergylogo} alt="" className="synergyfooter" />
                                 </span>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <span>
                                     <h1 className="footer-logo">
                                         <img src={iiitbLogo} alt=""/>
                                     </h1>
                                 </span>
-                                <p className="footer-c">© Synergy 2023, IIIT Bangalore</p>
+                                <p className="footer-c" >© Synergy 2023, IIIT Bangalore</p>
                             </div>
 
 
                             <div className="col-sm d-sm-none">
                                 <div className="row">
-                                    <div className="col justify-right">
+                                    <div className="col justify-center">
                                         <span>
-                                            <h1 className="footer-logo">Logo</h1>
+                                        <img src={synergylogo} alt="" className="synergyfooter" />
                                         </span>
                                     </div>
-                                    <div className="col">
+                                    <div className="col justify-center">
                                         <span>
                                             <h1 className="footer-logo">
                                                 <img src={iiitbLogo} alt="" />
@@ -41,7 +44,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <p className="footer-c" style={{ textAlign: "center" }}>© Synergy 2023, IIIT Bangalore</p>
+                                    <p className="footer-c" style={{ textAlign: "center",fontSize : "3.5vmin"}}>© Synergy 2023, IIIT Bangalore</p>
                                 </div>
                             </div>
                         </div>
@@ -51,10 +54,12 @@ const Footer = () => {
                     <div className="col-sm mobile d-none d-sm-block">
                         <div className="footer-content">
                             <Row>
-                                <Col md={6} className="headersFooter">
+                                <Col md={5} className="headersFooter">
                                     <div className="col-md wrapperHeadings">
+                                        <div className="socialHandles">
                                         <h1 className="footer-heading">Social</h1>
                                         <h1 className="footer-subheading">Handles</h1>
+                                        </div>
                                     </div>
                                 </Col>
                                 <Col md={6} >

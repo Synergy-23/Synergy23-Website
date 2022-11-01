@@ -19,7 +19,8 @@ function App() {
         content={about_us_text}
         className='about_us_section'
       ></Big_side_heading>
-      <Faq />
+      <Faq className ='homepage_faq'/>
+      <div className='emptybox'></div>
       {/* <Speakers title={"Speakers"} /> */}
     </div>
   );

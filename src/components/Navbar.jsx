@@ -10,6 +10,8 @@ import './Navbar.scss';
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { isMobile } from "react-device-detect";
 import { useEffect } from "react";
+
+import logo from "../assets/synergy-nav.svg";
 const NavigationBar = () => {
     const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () => {
@@ -35,7 +37,8 @@ const NavigationBar = () => {
         <>
             <Navbar variant="dark" expand="md" className={colorChange ? 'navbar-main navbar_black' : 'navbar-main navbar-transparent'} fixed="top">
                 <Container fluid>
-                    <Navbar.Brand href="/" className="nav-item" id="nav-logo">LOGO</Navbar.Brand>
+                    <Navbar.Brand href="/" className="nav-item" id="nav-logo"><img src = {logo}
+                    className = "navlogo"></img></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
