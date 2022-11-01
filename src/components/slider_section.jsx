@@ -17,7 +17,7 @@ function useHorizontalScroll(a) {
         //   // e.preventDefault();
         // }
         el.scrollTo({
-          left: el.scrollLeft + a*10,
+          left: el.scrollLeft + a*10*(window.innerWidth/1920),
           behavior: 'smooth'
         });
       };
