@@ -21,7 +21,7 @@ const Footer = () => {
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <span>
                                     <h1 className="footer-logo">
-                                        <img src={iiitbLogo} alt="" />
+                                        <img src={iiitbLogo} alt=""/>
                                     </h1>
                                 </span>
                                 <p className="footer-c">© Synergy 2023, IIIT Bangalore</p>
@@ -66,6 +66,11 @@ const Footer = () => {
                                     <div className="foot-icon-list">
                                         <div className="row">
                                             <Col>
+                                                <a href="https://www.linkedin.com/company/synergy-iiitbangalore/" target="_blank" rel="noreferrer" className="footer-icon">
+                                                    <BsLinkedin style={{ color: "white", fontSize: "2.3em" }} className="ra-icon" />
+                                                </a>
+                                            </Col>
+                                            <Col>
                                                 <a href="https://www.instagram.com/iiitb_official/" target="_blank" rel="noreferrer" className="footer-icon">
                                                     <AiFillInstagram style={{ color: "white", fontSize: "2.5em" }} className="ra-icon" />
                                                 </a>
@@ -73,11 +78,6 @@ const Footer = () => {
                                             <Col>
                                                 <a href="https://www.facebook.com/IIITBofficial/" target="_blank" rel="noreferrer" className="footer-icon">
                                                     <BsFacebook style={{ color: "white", fontSize: "2.3em" }} className="ra-icon" />
-                                                </a>
-                                            </Col>
-                                            <Col>
-                                                <a href="https://in.linkedin.com/school/iiit-bangalore/" target="_blank" rel="noreferrer" className="footer-icon">
-                                                    <BsLinkedin style={{ color: "white", fontSize: "2.3em" }} className="ra-icon" />
                                                 </a>
                                             </Col>
                                             <Col>

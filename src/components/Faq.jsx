@@ -28,16 +28,18 @@ const Faq = () => {
         });
     }
     return (
-        <Container>
-            {/* div centered inside container */}
-            <div className="faq">
-                <h1 className='faq-heading'>Faq<span className="dot_color">.</span></h1>
-                {/* center accordion div */}
-                <div className="row accordion">
-                    {renderFaqs(faqs)}
+        <div className="faq-wrapper">
+            <Container>
+                {/* div centered inside container */}
+                <div className="faq">
+                    <h1 className='faq-heading'>Faq<span className="dot_color">.</span></h1>
+                    {/* center accordion div */}
+                    <div className="row accordion">
+                        {renderFaqs(faqs)}
+                    </div>
                 </div>
-            </div>
-        </Container>
+            </Container>
+        </div>
     )
 }
 export default Faq;

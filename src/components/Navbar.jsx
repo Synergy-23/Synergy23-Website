@@ -9,11 +9,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.scss';
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { isMobile } from "react-device-detect";
+import { useEffect } from "react";
 
 import logo from "../assets/synergy-nav.svg";
 const NavigationBar = () => {
     const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () => {
+        
         if (window.scrollY >= 80) {
             setColorchange(true);
         }
@@ -25,6 +27,12 @@ const NavigationBar = () => {
         }
     };
     window.addEventListener('scroll', changeNavbarColor);
+    useEffect(() => {
+        if(window.innerWidth <= 767 )
+        {
+            setColorchange(true);
+        }
+    },[])
     return (
         <>
             <Navbar variant="dark" expand="md" className={colorChange ? 'navbar-main navbar_black' : 'navbar-main navbar-transparent'} fixed="top">
