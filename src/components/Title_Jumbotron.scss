@@ -42,6 +42,10 @@
     color: rgba($color: #ffffff, $alpha: 0.7);
     font-size: 3.2vmin;
     padding-top: 2em;
+    @media(max-width: 767px)
+    {
+        font-size: 3.7vw;
+    }
 }
 
 .icon_col {
@@ -73,4 +77,11 @@
 
 .navlogo{
     height: 6vmin;
+}
+.title_tex{
+    @media(max-width:767px)
+    {
+        position: absolute;
+        top:18vh;
+    }
 }
