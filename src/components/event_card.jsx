@@ -31,9 +31,9 @@ function EventCard(props) {
 
           </div>
           <div className="row btn-row">
-            <p><button className="btn btn-purple">
+            <button className="btn btn-purple">
               Register
-            </button></p>
+            </button>
           </div>
         </div>
       </div>
