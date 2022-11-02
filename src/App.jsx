@@ -9,18 +9,27 @@ import Speakers from './components/Speakers';
 import { homepage_subtitle } from './content/subtitle_texts';
 function App() {
   return (
-    <div className="App" >
-      <Title_Jumbotron bigHeader={"Synergy is"} bigHeaderCaps={"BACK"} subtitle={homepage_subtitle} />
-      <Slider_section />
-
-      <Big_side_heading
+    <div className="App container-fluid appcont" >
+      <div className="col appcol">
+          <div className="row approw">
+          <Title_Jumbotron bigHeader={"Synergy is"} bigHeaderCaps={"BACK"} subtitle={homepage_subtitle} />
+          </div>
+          <div className="row approw">
+          <Slider_section />
+          </div>
+          <div className="row approw">
+          <Big_side_heading
         heading1="About"
         heading2="Us"
         content={about_us_text}
         className='about_us_section'
       ></Big_side_heading>
-      <Faq className ='homepage_faq'/>
-      <div className='emptybox'></div>
+          </div>
+          <div className="row approw">
+          <Faq className ='homepage_faq'/>
+          </div>
+          <div className='emptybox'></div>
+      </div>
       {/* <Speakers title={"Speakers"} /> */}
     </div>
   );

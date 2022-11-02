@@ -6,7 +6,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
-    font-size: 13vh;
+    font-size: 12vh;
     line-height: 138px;
     margin-left: 1.5vw;
 }
@@ -36,6 +36,9 @@
     font-style: normal;
     font-weight: 600;
     font-size: 4.5vmin;
+    @media(max-width : 767px){
+        font-size: 3vh;
+    }
     line-height: 45px;
     margin-top: 1.5vh;
 }
@@ -60,6 +63,9 @@
 .accordion__content {
     line-height: 1.6;
     font-size: 1.4em;
+    @media(max-width : 767px){
+        font-size: 1em;
+    }
     display: none;
     font-family: 'Poppins';
     font-style: normal;
