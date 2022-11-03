@@ -4,7 +4,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { isMobile } from "react-device-detect";
-import iiitbLogo from "../assets/iiitb-logo.png";
+import iiitbLogo from "../assets/iiitblogo.png";
 import synergylogo from "../assets/synergy-footer.svg";
 
 const Footer = () => {
@@ -21,7 +21,7 @@ const Footer = () => {
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <span>
                                     <h1 className="footer-logo">
-                                        <img src={iiitbLogo} alt=""/>
+                                        <img src={iiitbLogo} alt="" className="iiitbfooter"/>
                                     </h1>
                                 </span>
                                 <p className="footer-c" >© Synergy 2023, IIIT Bangalore</p>
@@ -37,9 +37,7 @@ const Footer = () => {
                                     </div>
                                     <div className="col justify-center">
                                         <span>
-                                            <h1 className="footer-logo">
-                                                <img src={iiitbLogo} alt="" />
-                                            </h1>
+                                            <img src={iiitbLogo} alt="" className="iiitbfooter"/>
                                         </span>
                                     </div>
                                 </div>

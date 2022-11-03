@@ -10,6 +10,7 @@
         linear-gradient(359.93deg, #000000 6.9%, rgba(0, 0, 0, 0) 65.51%),
         url('../assets/FlowField_dummy.png');
     }
+    overflow-x: hidden;
 }
 
 .empty_space_title {
@@ -48,7 +49,7 @@
     padding-top: 2em;
     @media(max-width: 767px)
     {
-        font-size: 4.7vw;
+        font-size: 4vw;
     }
 }
 
@@ -63,6 +64,13 @@
     height: 6vmin;
     width: 6vmin;
     color: rgba($color: #ffffff, $alpha: 0.8);
+    @media(max-width:767px)
+    {   
+        margin-left: 8vw;
+        height: 5vh;
+        width: auto;
+        margin-bottom: 4vh;
+    }
 }
 
 .down_arrow_icon_span {
@@ -94,9 +102,3 @@
         top:36vw;
     }
 }
-// .foolish-txt{
-//     @media(max-width: 400px)
-//     {
-//         width: 360px;
-//     }
-// }

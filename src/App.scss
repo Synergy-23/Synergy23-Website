@@ -5,11 +5,24 @@
     }
   }
 
+  // body {
+  //   position: relative;
+  //   overflow-x : hidden;
+  // }
+  // html{
+  //   overflow-x : hidden;
+  // }
+
 .App {
     background: black;
     color: white;
     overflow-x: hidden;
+    -ms-overflow-style : none;
+    scrollbar-width: none;
     padding: 0;
+}
+.App::-webkit-scrollbar{
+  display: none;
 }
 
 .about_us_section {
@@ -18,9 +31,19 @@
 
 body {
     height: 100vh;
-    overflow: auto;
+    overflow-x: hidden;
 }
 
 .emptybox{
   min-height: 10vmin;
 }
+
+.appcont{
+  margin: 0;
+  padding : 0;
+}
+
+.approw,.appcol{
+  margin : 0;
+}
+
