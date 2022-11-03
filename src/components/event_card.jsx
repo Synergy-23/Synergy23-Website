@@ -30,7 +30,9 @@ function EventCard(props) {
             </div>
           </div>
           <div className="row">
-            
+            <div className="event_desc">
+              {mp['desc']}
+            </div>
             <div class="accordion accordion-flush" id="accordionExample">
               {faqitems}
             </div>

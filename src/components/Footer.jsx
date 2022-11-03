@@ -69,7 +69,7 @@ const Footer = () => {
                                                 </a>
                                             </Col>
                                             <Col>
-                                                <a href="https://www.instagram.com/iiitb_official/" target="_blank" rel="noreferrer" className="footer-icon">
+                                                <a href="https://www.instagram.com/synergy_iiitb/" target="_blank" rel="noreferrer" className="footer-icon">
                                                     <AiFillInstagram style={{ color: "white", fontSize: "2.5em" }} className="ra-icon" />
                                                 </a>
                                             </Col>

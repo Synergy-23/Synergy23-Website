@@ -42,8 +42,9 @@ const Slider_section = () => {
     }
     const textLst = [];
     for (let index = 0; index < randomizedHeaderLst.length; index++) {
-      if (index % 2 === 0)
+      if (index % 2 === 0){
         textLst.push(<h1 className="hollow_slider_text">{randomizedHeaderLst[index] + "."}</h1>);
+      }
       else
         textLst.push(<h1 className="solid_slider_text">{randomizedHeaderLst[index] + "."}</h1>);
     }

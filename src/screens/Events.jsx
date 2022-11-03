@@ -8,8 +8,8 @@ function Events(){
     <div className="Events">
          <Title_Jumbotron bigHeader={"Discover"} bigHeaderCaps={"Synergy"} subtitle= {events_page_subtitle}/>
          <EventCard eventid = "1"/>
-         <EventCard title = "Another event"
-         eventid = "2" imgsrc = "../assets/rectangle55.png"/>
+         {/* <EventCard title = "Another event"
+         eventid = "2" imgsrc = "../assets/rectangle55.png"/> */}
     <div className='emptybox'></div>
     </div>
     );  
