@@ -22,7 +22,7 @@ const Title_Jumbotron = (props) => {
                     <h1 className='back_dot_text'>{props.bigHeaderCaps}<span className='dot_color'>.</span></h1>
                 </div>
                 {/* add margin-top 10px */}
-                <div className="row intro_text">
+                <div className="row intro_text foolish-txt">
                     <div className="col-12 col-md-8">
                         {props.subtitle}
                     </div>
