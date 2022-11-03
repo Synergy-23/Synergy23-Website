@@ -1,6 +1,6 @@
 .navbar-main {
     color: white;
-    font-size: 1.5rem;
+    font-size: 3.2vh;
     z-index: 999;
 
     #nav-logo {
@@ -19,11 +19,18 @@
         @media screen and (max-width: 1360px) {
             margin-right: 20px;
         }
+        @media screen and (max-width: 767px) {
+            font-size: 2.6vh;
+            margin-left: 3vw;
+        }
     }
 
     .navbar-social-icons {
         color: rgba(170, 170, 170);
         width: 5vmin;
+        @media screen and (max-width: 767px) {
+            margin-left: 3vw;
+        }
     }
 
     // .nav-item:hover,
@@ -34,6 +41,10 @@
 
     .nav-icons {
         padding-right: 0.6em;
+        @media screen and (max-width: 767px) {
+            width: 6vh;
+            height: 6vh;
+        }
     }
 }
 

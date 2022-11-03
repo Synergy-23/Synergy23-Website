@@ -23,6 +23,10 @@
     box-shadow: none !important;
     border : none !important;
     padding: 3vmin !important;
+    
+    @media(max-width : 767px){
+        font-size: 4.2vmin !important;
+    }
 }
 
 .acbtn:focus{
@@ -34,7 +38,10 @@
     background: #1d1c1c !important;
     margin-top: 1vmin;
     border-radius: 2vmin;
-    font-size: 2.5vmin;
+    font-size: 2.8vmin;
+    @media(max-width : 767px){
+        font-size: 4.2vmin;
+    }
 }
 .acc{
     background-color: #1d1c1c !important;

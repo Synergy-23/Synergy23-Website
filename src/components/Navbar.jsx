@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.scss';
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { isMobile } from "react-device-detect";
 import { useEffect } from "react";
 
@@ -56,13 +56,13 @@ const NavigationBar = () => {
                         <div className="d-flex">
                             <span className="nav-icons">
                                 {/* navigate to google.com */}
-                                <a href="https://www.facebook.com/IIITBofficial/" target="_blank" rel="noreferrer">
-                                    <BsFacebook style={{ fontSize: "1.5em" }} className='navbar-social-icons' />
+                                <a href="https://www.linkedin.com/company/synergy-iiitbangalore/" target="_blank" rel="noreferrer">
+                                    <BsLinkedin style={{ fontSize: "1.5em" }} className='navbar-social-icons' />
                                 </a>
 
                             </span>
                             <span className="nav-icons">
-                                <a href="https://www.instagram.com/iiitb_official/" target="_blank" rel="noreferrer">
+                                <a href="https://www.instagram.com/synergy_iiitb/" target="_blank" rel="noreferrer">
                                     <BsInstagram style={{ fontSize: "1.5em" }} className='navbar-social-icons' />
                                 </a>
                             </span>

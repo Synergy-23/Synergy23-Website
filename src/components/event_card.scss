@@ -3,6 +3,7 @@
     margin-top: 4vmin;
     background-color: #1d1c1c;
     border-radius: 10vmin;
+    white-space: pre-line;
 }
 
 .accordion{
@@ -15,9 +16,20 @@
     padding-left : 8vmin;
     padding-bottom: 4vmin;
     color: white;
+    @media(max-width : 767px){
+        justify-content: center;
+        margin-left: -5vh !important;
+        font-size: 8vmin;
+    }
 }
 
-
+.event_desc{
+    display: block;
+    max-width: 88% !important;
+    margin-left: 7%;
+    margin-bottom: 3%;
+    color: rgb(200, 200, 200);
+}
 
 .btn-purple:hover,
 .btn-purple:active,
@@ -47,10 +59,13 @@
 }
 .sideimg{
     width: 100%;
+    margin-bottom: 4vh;
+    border-radius: 6vmin;
 }
 
 .sideimgmd{
     margin-left: -4vw;
+    border-radius: 6vmin;
 }
 
 
