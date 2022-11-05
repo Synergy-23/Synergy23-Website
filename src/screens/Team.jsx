@@ -4,10 +4,11 @@ import "./Team.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import ResponsiveCards from "./ResponsiveCards";
 import { teams } from "../content/teams";
+// import ComingSoon from "./ComingSoon";
 const Teams = () => {
     return (
         <div className="Teams">
-             <Title_Jumbotron bigHeader={"\n"} bigHeaderCaps={"Coming soon "} subtitle="The page is not up yet. Stay tuned." />
+            {/* <ComingSoon></ComingSoon> */}
             {/* <Title_Jumbotron bigHeader={"Meet the people"} bigHeaderCaps={"who made it ALL"} subtitle={team_page_subtitle} />
             {teams.map((team) =>
                 <Container className="wrapper">
