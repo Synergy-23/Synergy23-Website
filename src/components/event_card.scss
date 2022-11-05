@@ -61,6 +61,11 @@
     width: 100%;
     margin-bottom: 4vh;
     border-radius: 6vmin;
+    @media(max-width : 767px){
+        width: 170%;
+        margin-left: -33%;
+        height: auto;
+    }
 }
 
 .sideimgmd{

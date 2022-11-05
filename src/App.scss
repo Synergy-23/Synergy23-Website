@@ -5,13 +5,17 @@
     }
   }
 
-  // body {
-  //   position: relative;
-  //   overflow-x : hidden;
-  // }
-  // html{
-  //   overflow-x : hidden;
-  // }
+  body {
+    @media(max-width : 767px){
+      position: relative;
+      overflow-x : hidden;
+    }
+  }
+  html{
+    @media(max-width : 767px){
+      overflow-x : hidden;
+    }
+  }
 
 .App {
     background: black;
