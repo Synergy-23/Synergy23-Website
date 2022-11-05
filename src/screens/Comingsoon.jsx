@@ -18,10 +18,9 @@ function Comingsoon(){
         </div> */}
         <div className="row">
             <div className="empty_space_title1"></div>
-            <div className="empty_space_title1"></div>
             <div className="col-2"></div>
             <div className="col-4">
-                <h1>Synergy 2023 is</h1>
+                <h1 className="top">Synergy 2023 is</h1>
             </div>
             <div className="col"> </div>
         </div>
