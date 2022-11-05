@@ -16,12 +16,12 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-sm d-none d-sm-block">
                                 <span>
-                                    <img src={synergylogo} alt="" className="synergyfooter" />
+                                    <img src={synergylogo} alt="synergy logo" className="synergyfooter" />
                                 </span>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <span>
                                     <h1 className="footer-logo">
-                                        <img src={iiitbLogo} alt="" className="iiitbfooter"/>
+                                        <img src={iiitbLogo} alt="iiitb logo" className="iiitbfooter"/>
                                     </h1>
                                 </span>
                                 <p className="footer-c" >© Synergy 2023, IIIT Bangalore</p>
