@@ -4,6 +4,10 @@
     overflow-x: hidden;
     padding-top: 10vh;
 
+    @media(max-width : 767px){
+        padding-top: 4vh;
+    }
+
     .mobile {
         // RED BORDER
         // only left border with height of 20 px

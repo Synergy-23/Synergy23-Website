@@ -14,7 +14,7 @@
 }
 
 .empty_space_title1 {
-    height: 12vh;
+    height: 20vh;
 }
 
 
@@ -29,7 +29,7 @@
     text-align: left;
     font-size: 15vmin;
     font-weight: 600;
-    letter-spacing: 2vmin;
+    letter-spacing: 3vmin;
 }
 
 .synergy_is_text2{
@@ -38,12 +38,15 @@
     text-align: right;
     font-size: 15vmin;
     font-weight: 600;
-    letter-spacing: 2vmin;
+    letter-spacing: 3vmin;
 }
-
+.textcenter{
+    text-align: center;
+}
 .desc{
     color: rgba($color: #ffffff, $alpha: 0.7);
     font-size: 3.2vmin;
+    font-family: 'Poppins';
     @media(max-width: 767px)
     {
         font-size: 4vw;
@@ -51,6 +54,31 @@
     text-align: right;
 }
 
-.top{
+
+
+.topcoming{
     color: #ffffff;
+    font-size: 4vmin;
+    font-family: 'Poppins';
+    @media(max-width: 767px)
+    {
+        font-size:4.5vmin;
+    }
+}
+
+.contactuscom{
+    color: white;
+    font-size: 3.7vmin;
+    font-family: 'Poppins';
+}
+
+.socialrow{
+    padding-top: 2vw;
+}
+
+.mobilesocial{
+    visibility: hidden;
+    @media(max-width: 767px){
+        visibility: visible;
+    }
 }
