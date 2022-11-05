@@ -1,88 +1,26 @@
 .faq-wrapper{
     margin-bottom: 15px;
+    background-color: black !important;
 }
 
 .faq-heading {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
-    font-size: 12vh;
+    font-size: 12vmin;
     line-height: 138px;
     margin-left: 1.5vw;
-}
-
-.accordion {
-    // max-width: 400px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 4vmin;
-    overflow: hidden;
-    font-family: "Quicksand", sans-serif;
-    background: #101010;
-}
-
-.accordion__label,
-.accordion__content {
-    padding: 14px 20px;
-    margin-bottom: 5vh;
-}
-
-.accordion__label {
-    display: block;
-    color: #ffffff;
-    cursor: pointer;
-    position: relative;
-    transition: background 0.1s;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 4.5vmin;
     @media(max-width : 767px){
-        font-size: 3vh;
+        font-size: 12vmin;
+        text-align: center;
     }
-    line-height: 45px;
-    margin-top: 1.5vh;
 }
 
-// .accordion__label:hover {
-//     background: rgba(0, 0, 0, 0.1);
-// }
-
-.accordion__label::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 20px;
-    width: 12px;
-    height: 6px;
-    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
-    background-size: contain;
-    transition: transform 0.4s;
+.accordion-flush{
+    background-color: black !important;
+    box-shadow: none !important;
 }
-
-.accordion__content {
-    line-height: 1.6;
-    font-size: 1.4em;
-    @media(max-width : 767px){
-        font-size: 1em;
-    }
-    display: none;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3.5vh;
-    // line-height: 30px;
-    margin-bottom: 4.5vh;
-}
-
-.accordion__input {
-    display: none;
-}
-
-.accordion__input:checked~.accordion__content {
-    display: block;
-}
-
-.accordion__input:checked~.accordion__label::after {
-    transform: translateY(-50%) rotate(0.5turn);
+.homeac{
+    background-color: black !important;
+    width: 100% !important;
 }

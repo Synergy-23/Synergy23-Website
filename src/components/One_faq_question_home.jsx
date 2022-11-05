@@ -1,13 +1,14 @@
-import "./One_faq_question.scss";
-function OneFaqQuestion(props) {
+import "./One_faq_question_home.scss";
+
+function OneFaqQuestionHome(props) {
   const headingid = "heading" + props.id;
   const divid = "collapse" + props.id;
   return (
-    <div class="accordion-item eventac">
-      <div class="accordion-header eventac container" id={headingid}>
+    <div class="accordion-item homeac">
+      <div class="accordion-header container homeac" id={headingid}>
         <button
           type="button"
-          class = "accordion-button acbtn eventacbtn"
+          class = "accordion-button acbtn homeacbtn"
           data-bs-toggle="collapse"
           data-bs-target={"#" + divid}
           aria-expanded="true"
@@ -18,11 +19,11 @@ function OneFaqQuestion(props) {
       </div>
       <div
         id={divid}
-        class="accordion-collapse collapse collapse acc eventac"
+        class="accordion-collapse collapse collapse acc homeac"
         aria-labelledby={headingid}
         data-bs-parent="#accordionExample"
       >
-        <div class="accordion-body acbdy eventac">
+        <div class="accordion-body acbdy homeac">
           <p>{props.body}</p>
         </div>
       </div>
@@ -30,4 +31,4 @@ function OneFaqQuestion(props) {
   );
 }
 
-export default OneFaqQuestion;
+export default OneFaqQuestionHome;

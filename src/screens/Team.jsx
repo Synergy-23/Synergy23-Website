@@ -9,7 +9,7 @@ const Teams = () => {
     return (
         <div className="Teams">
             <Comingsoon />
-             {/*<Title_Jumbotron bigHeader={"\n"} bigHeaderCaps={"Coming soon "} subtitle="The page is not up yet. Stay tuned." />*/}
+             {/* <Title_Jumbotron bigHeader={"\n"} bigHeaderCaps={"Coming soon "} subtitle="The page is not up yet. Stay tuned." /> */}
             {/* <Title_Jumbotron bigHeader={"Meet the people"} bigHeaderCaps={"who made it ALL"} subtitle={team_page_subtitle} />
             {teams.map((team) =>
                 <Container className="wrapper">
