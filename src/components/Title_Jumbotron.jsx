@@ -1,7 +1,7 @@
 import './Title_Jumbotron.scss';
 import { BsArrowDownCircle } from 'react-icons/bs';
 import { Button } from 'react-bootstrap';
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import { useEffect,useState } from 'react';
 
 const Title_Jumbotron = (props) => {
     const slideDown = () => {
@@ -10,8 +10,15 @@ const Title_Jumbotron = (props) => {
             behavior: 'smooth'
         });
     }
+    const [windowWidth,setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        window.addEventListener("resize", () => setWindowWidth(window.innerWidth));
+    })
+
     const element = document.getElementById("#aboutushomepage");
-    return <div className='container-fluid title_background'>
+    return (
+    <div className='container-fluid title_background'>
         <div className="row title_tex">
             <div className="col-12 col-md-10 col-lg-8">
                 <div className="empty_space_title">
@@ -38,16 +45,25 @@ const Title_Jumbotron = (props) => {
         <div className="row icon-bt-row position-absolute bottom-0 start-50 translate-middle">
             <div className="col"></div>
             <div className="col icon_col">
-                {/* <AnchorLink href='#aboutushomepage'> */}
+                {
+                    windowWidth <= 767 ? 
+                    <a href='#sliderContent'>
+                        <span className="down_arrow_icon_span">
+                            <BsArrowDownCircle className='down_arrow_icon'
+                            />
+                        </span>
+                    </a>
+                    :
                     <span className="down_arrow_icon_span" onClick={slideDown}>
                         <BsArrowDownCircle className='down_arrow_icon'
                         />
-                    </span>
-                {/* </AnchorLink> */}
+                </span>
+                }
             </div>
             <div className="col"></div>
         </div>
     </div>
+    )
 }
 
 export default Title_Jumbotron;
