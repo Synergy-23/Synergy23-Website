@@ -1,14 +1,16 @@
 import './Title_Jumbotron.scss';
 import { BsArrowDownCircle } from 'react-icons/bs';
 import { Button } from 'react-bootstrap';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Title_Jumbotron = (props) => {
     const slideDown = () => {
-        window.scrollTo({
-            top: window.innerHeight / 2,
+        window.scrollBy({
+            top: document.body.scrollHeight*0.3,
             behavior: 'smooth'
         });
     }
+    const element = document.getElementById("#aboutushomepage");
     return <div className='container-fluid title_background'>
         <div className="row title_tex">
             <div className="col-12 col-md-10 col-lg-8">
@@ -36,9 +38,12 @@ const Title_Jumbotron = (props) => {
         <div className="row icon-bt-row position-absolute bottom-0 start-50 translate-middle">
             <div className="col"></div>
             <div className="col icon_col">
-                <span className="down_arrow_icon_span">
-                    <BsArrowDownCircle className='down_arrow_icon' onClick={slideDown} />
-                </span>
+                {/* <AnchorLink href='#aboutushomepage'> */}
+                    <span className="down_arrow_icon_span" onClick={slideDown}>
+                        <BsArrowDownCircle className='down_arrow_icon'
+                        />
+                    </span>
+                {/* </AnchorLink> */}
             </div>
             <div className="col"></div>
         </div>
@@ -46,3 +51,4 @@ const Title_Jumbotron = (props) => {
 }
 
 export default Title_Jumbotron;
+

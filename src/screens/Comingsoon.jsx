@@ -1,7 +1,7 @@
 import './Comingsoon.scss';
 import { Row, Col } from "react-bootstrap";
 import { AiFillInstagram } from "react-icons/ai";
-import { BsFacebook, BsLinkedin } from "react-icons/bs";
+import {BsInstagram, BsFacebook, BsLinkedin } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 
 function Comingsoon(){
@@ -39,7 +39,7 @@ function Comingsoon(){
             <div className="col-2 d-none d-lg-block"></div>
         </div>
         <div className="row d-block d-lg-none">
-            <h1 className='synergy_is_text2 textcenter'>SOON</h1>
+            <h1 className='synergy_is_text2 textright'>SOON</h1>
         </div>
         <div className="row">   
             <div className="col-4 col-lg-6"></div>
@@ -57,25 +57,25 @@ function Comingsoon(){
             <h6 className ="textcenter contactuscom">Contact us here</h6>
         </div>
         <div className="row textcenter socialrow mobilesocial">
-            <div className="col-2 col-lg"></div>
+            <div className="col-3 col-lg"></div>
             <div className="col-2 col-lg-1">
             <a href="https://www.linkedin.com/company/synergy-iiitbangalore/" target="_blank" rel="noreferrer" className="footer-icon socialrow">
-                <BsLinkedin style={{ color: "white", fontSize: "2.3em" }} className="ra-icon" />
+                <BsLinkedin style={{ color: "white", fontSize: "1.8em" }} className="ra-icon" />
             </a>
             </div>
             <div className="col-2 col-lg-1">
             <a href="https://www.instagram.com/synergy_iiitb/" target="_blank" rel="noreferrer" className="footer-icon socialrow">
-                <AiFillInstagram style={{ color: "white", fontSize: "2.5em" }} className="ra-icon" />
+                <AiFillInstagram style={{ color: "white", fontSize: "2em" }} className="ra-icon" />
             </a>
             </div>
-            <div className="col-2 col-lg-1">
+            {/* <div className="col-2 col-lg-1">
             <a href="https://www.facebook.com/IIITBofficial/" target="_blank" rel="noreferrer" className="footer-icon socialrow">
                 <BsFacebook style={{ color: "white", fontSize: "2.3em" }} className="ra-icon" />
             </a>
-            </div>
+            </div> */}
             <div className="col-2 col-lg-1">
             <a href="https://twitter.com/IIITB_official" target="_blank" rel="noreferrer" className="footer-icon socialrow">
-                <FaTwitter style={{ color: "white", fontSize: "2.3em" }} className="ra-icon" />
+                <FaTwitter style={{ color: "white", fontSize: "1.8em" }} className="ra-icon" />
             </a>
             </div>
             <div className="col-2 col-lg"></div>

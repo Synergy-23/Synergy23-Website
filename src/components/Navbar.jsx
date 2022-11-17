@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.scss';
+import { AiFillInstagram } from "react-icons/ai";
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { isMobile } from "react-device-detect";
 import { useEffect } from "react";
@@ -63,7 +64,7 @@ const NavigationBar = () => {
                             </span>
                             <span className="nav-icons">
                                 <a href="https://www.instagram.com/synergy_iiitb/" target="_blank" rel="noreferrer">
-                                    <BsInstagram style={{ fontSize: "1.5em" }} className='navbar-social-icons' />
+                                    <AiFillInstagram style={{ fontSize: "1.9em" }} className='navbar-social-icons' />
                                 </a>
                             </span>
                         </div>

@@ -73,11 +73,11 @@ const Footer = () => {
                                                     <AiFillInstagram style={{ color: "white", fontSize: "2.5em" }} className="ra-icon" />
                                                 </a>
                                             </Col>
-                                            <Col>
+                                            {/* <Col>
                                                 <a href="https://www.facebook.com/IIITBofficial/" target="_blank" rel="noreferrer" className="footer-icon">
                                                     <BsFacebook style={{ color: "white", fontSize: "2.3em" }} className="ra-icon" />
                                                 </a>
-                                            </Col>
+                                            </Col> */}
                                             <Col>
                                                 <a href="https://twitter.com/IIITB_official" target="_blank" rel="noreferrer" className="footer-icon">
                                                     <FaTwitter style={{ color: "white", fontSize: "2.3em" }} className="ra-icon" />
