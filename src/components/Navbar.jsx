@@ -40,7 +40,7 @@ const NavigationBar = () => {
                 <Container fluid>
                     <Navbar.Brand href="/" className="nav-item" id="nav-logo"><img src = {logo}
                     className = "navlogo" alt="Synergy Logo"></img></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="navbarScroll" />
+                    <Navbar.Toggle aria-controls="navbarScroll" className = "navbarham"/>
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
                             className="me-auto my-2 my-lg-0"

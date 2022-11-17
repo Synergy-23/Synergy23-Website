@@ -30,6 +30,7 @@
         width: 5vmin;
         @media screen and (max-width: 767px) {
             margin-left: 3vw;
+            width: 7vmin;
         }
     }
 
@@ -68,3 +69,9 @@
         color: rgba(170, 170, 170);
     }
 }
+
+.navbarham:focus{
+    outline : none !important;
+    box-shadow: none !important;
+}
+
