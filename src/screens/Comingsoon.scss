@@ -30,7 +30,8 @@
     color: white;
     text-align: left;
     font-size: 6.5vw;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: 'Poppins';
     letter-spacing: 3vmin;
     @media(max-width : 800px){
         font-size: 14vmin;
@@ -42,8 +43,9 @@
     color: white;
     text-align: right;
     font-size: 6.5vw;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 3vmin;
+    font-family: 'Poppins';
     @media(max-width : 767px){
         font-size: 14vmin;
     }

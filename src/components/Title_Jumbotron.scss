@@ -22,20 +22,30 @@
     padding-left: 6vw;
 }
 
+.synergy_is{
+    margin-top: 4.5vh !important;
+    @media(max-width: 767px){
+        margin-top: 0 !important;
+    }
+}
 
 .synergy_is_text,
 .back_dot_text {
     white-space: pre-line;
     color: white;
     text-align: left;
-    font-size: 17vmin;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18vmin!important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700!important;
+    line-height: 20vmin !important;
+    @media(max-width:767px){
+        font-size: 16vmin !important;
+    }
 }
 
 
 .back_dot_text {
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .dot_color {
@@ -46,7 +56,7 @@
     padding-left: 6.5vw;
     padding-right: 6.5vw;
     color: rgba($color: #ffffff, $alpha: 0.7);
-    font-size: 3.2vmin;
+    font-size: 3vmin;
     padding-top: 2em;
     @media(max-width: 767px)
     {
